@@ -1,0 +1,7 @@
+{
+  "name": "Gabby's Tree Service Template",
+  "description": "A professional, high-converting service page template for tree care businesses.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

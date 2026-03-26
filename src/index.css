@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-yellow: #FFB800;
+  --color-brand-green: #006837;
+  --color-brand-green-dark: #004d29;
+  --color-brand-light-green: #F4F9F4;
+  
+  --font-serif: "Georgia", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-gray-900 bg-white;
+  }
+  h1, h2, h3, h4 {
+    @apply font-serif font-bold;
+  }
+}
+
+.bg-grid-pattern {
+  background-image: radial-gradient(circle, #00000010 1px, transparent 1px);
+  background-size: 20px 20px;
+}
